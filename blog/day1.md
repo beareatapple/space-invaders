@@ -10,6 +10,8 @@
 - [NodeJS](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/en/)
 
+> 提醒：可點上述連結查看安裝說明
+
 ### Bundle System 打包工具
 
 卡比將會使用 [Vite](https://vitejs.dev/), 作為打包工具喔。
@@ -37,6 +39,8 @@ yarn dev
 
 - 打開你的 Editor，開始出發拉!
 
+> 提醒先關閉終端機再繼續操作嗎？
+
 ## Application
 
 首先要先在頁面上生成 `<canvas />` 以方便卡比繪圖，
@@ -47,6 +51,8 @@ yarn add pixi.js
 ```
 
 **note. 請注意卡比此時的版本為 `"pixi.js": "^6.0.4"`**
+
+> 提醒接下來是開啟資料夾編輯檔案，不是終端機指令
 
 接著在 `src/main.ts` 導入，
 
@@ -178,6 +184,8 @@ app.stage.addChild(graphics);
 ![hello crab final](./day1/hello-crab-2.png)
 
 程式碼如下，
+
+> 這裡要放的是完整程式碼嗎？內容少了image
 
 -- `src/main.ts`
 
